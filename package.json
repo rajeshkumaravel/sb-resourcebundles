@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/rajeshkumaravel/sb-resourcebundles/issues"
   },
-  "homepage": "https://github.com/rajeshkumaravel/sb-resourcebundles#readme"
+  "homepage": "https://github.com/rajeshkumaravel/sb-resourcebundles#readme",
+  "dependencies": {
+    "@azure/storage-blob": "12.12.0",
+    "@azure/abort-controller": "^1.0.0",
+    "@azure/logger": "^1.0.0",
+    "@azure/identity": "^2.0.1"
+  }
 }
