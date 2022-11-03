@@ -17,6 +17,9 @@ jobs:
           command: |
             echo 'export project_name="$(echo $project_name)"' >> $BASH_ENV
       - run:
+          command: echo $project_name
+          name: Build app
+      - run:
           command: npm run dev
           name: Build app
 
