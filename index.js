@@ -1,0 +1,1 @@
+console.log('node env => ', process.env.project_name); // TODO: log!
