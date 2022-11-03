@@ -1,0 +1,28 @@
+{
+  "name": "sb-resourcebundles",
+  "version": "1.0.0",
+  "description": "NodeJS library for parsing properties file and upload generated JSON to BLOB storage",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshkumaravel/sb-resourcebundles.git"
+  },
+  "keywords": [
+    "sunbird",
+    "resource",
+    "bundles",
+    "resourcebundles"
+  ],
+  "author": "RAJESH K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeshkumaravel/sb-resourcebundles/issues"
+  },
+  "homepage": "https://github.com/rajeshkumaravel/sb-resourcebundles#readme"
+}
