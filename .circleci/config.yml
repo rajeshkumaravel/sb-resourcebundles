@@ -14,6 +14,6 @@ jobs:
           name: Build app
 
 workflows:
-    sunbird_build_json:
+    sunbird_resource_bundles:
     jobs:
       - sunbird_build_json
