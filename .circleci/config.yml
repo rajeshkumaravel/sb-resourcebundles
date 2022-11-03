@@ -13,6 +13,10 @@ jobs:
           command: node --version
           name: Build app
       - run:
+          name: "Setup custom ENV variables"
+          command: |
+            echo 'export project_name="$(echo $project_name)"' >> $BASH_ENV
+      - run:
           command: npm run dev
           environment:
             project_name: echo ${project_name}
