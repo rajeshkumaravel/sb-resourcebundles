@@ -15,7 +15,7 @@ jobs:
       - run:
           command: npm run dev
           environment:
-            project_name: $project_name
+            project_name: ${project_name}
           name: Build app
 
 workflows:
