@@ -10,7 +10,10 @@ jobs:
       - node/install-packages:
           pkg-manager: yarn
       - run:
-          command: yarn build
+          command: node --version
+          name: Build app
+      - run:
+          command: npm run dev
           name: Build app
 
 workflows:
